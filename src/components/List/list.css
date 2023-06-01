@@ -1,0 +1,47 @@
+.bg-list {
+  background-color: #dbdbdb;
+  width: 100vw;
+  height: 100vh;
+
+  padding: 50px 0;
+}
+
+.list-container {
+  margin: 0 auto;
+}
+
+.list-header {
+  width: 80%;
+  
+  background-color: #34415c;
+
+  margin: 20px auto;
+  padding: 20px 0;
+}
+
+.list-header p {
+  margin: 0;
+
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+table th, td {
+  padding: 15px 50px;
+}
+
+table th {
+  color: #ffffff;
+}
+
+table td {
+  color: #34415c;
+  border-top: 1px solid #34415c;
+}

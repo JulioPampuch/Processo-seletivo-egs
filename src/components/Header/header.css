@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 15vh;
+
+  background: linear-gradient(90deg, rgba(26,217,173,1) 0%, rgba(47,235,208,1) 50%, rgba(26,217,173,1) 100%);
+}
+
+header .logo img {
+  width: 115px;
+}
+
+header .logo, .name {
+  margin: 0 200px;
+}
+
+header .name p {
+  font-size: 26px;
+  color: #ffffff;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
