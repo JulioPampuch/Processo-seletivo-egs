@@ -13,4 +13,6 @@
   <li>React.js</li>
 </ul>
 
+<p>Link do deploy do projeto > https://processo-seletivo-egs.vercel.app/</p>
+
 <p>(Para não criar um projeto mais complexo apenas para o processo, optei por não fazer a validação dos campos do formulário).</p>
