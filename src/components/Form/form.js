@@ -13,7 +13,7 @@ const Form = () => {
   function onSubmit(event) {
     event.preventDefault()
     const replacedAge = input.idade.replace(/[\[\].!'@,><|://\\;&*()_+=]/g, "")
-    
+
     navigate(`/table/${input.nome}/${input.sobrenome}/${replacedAge}/${input.email}/${input.cpf}`)
   }
 
@@ -46,11 +46,11 @@ const Form = () => {
           <h1>Teste</h1>
           <h2>Egs Sistemas</h2>
           <form onSubmit={onSubmit}>
-            <Input onChange={handleChange} type="text" name="nome" placeholder="Escreva seu nome" />
-            <Input onChange={handleChange} type="text" name="sobrenome" placeholder="Escreva seu sobrenome" />
-            <Input onChange={handleChange} type="text" name="idade" placeholder="00/00/0000" />
-            <Input onChange={handleChange} type="email" name="email" placeholder="Escreva seu e-mail" />
-            <Input onChange={handleChange} type="text" name="cpf" placeholder="000.000.000-00" />
+            <Input onChange={handleChange} value={input.nome} type="text" name="nome" placeholder="Escreva seu nome" />
+            <Input onChange={handleChange} value={input.sobrenome} type="text" name="sobrenome" placeholder="Escreva seu sobrenome" />
+            <Input onChange={handleChange} value={input.idade} type="text" name="idade" placeholder="00/00/0000" />
+            <Input onChange={handleChange} value={input.email} type="email" name="email" placeholder="Escreva seu e-mail" />
+            <Input onChange={handleChange} value={input.cpf} type="text" name="cpf" placeholder="000.000.000-00" />
             <Checkbox name="Aceito os termos e condições" />
             <Button name="Enviar" />
           </form>
